@@ -1,0 +1,10 @@
+body {
+  background: #f8f8f8;
+  color: #111;
+}
+h1, h2 {
+  color: #222;
+}
+.doodle, .blurb {
+  background: #fff;
+}

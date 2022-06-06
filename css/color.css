@@ -1,0 +1,54 @@
+.yellow {
+  border-color: #fdd20a
+}
+.yellow > p > span,
+.yellow > ul > li > span,
+.yellow .doodle {
+  background-color: #fff3c0;
+  border-color: #fff3c0;
+}
+.green {
+  border-color: #65bc46;
+}
+.green > p > span,
+.green > ul > li > span,
+.green .doodle {
+  background-color: #c5e6b9;
+  border-color: #c5e6b9;
+}
+.orange {
+  border-color: #de5833;
+}
+.orange > p > span,
+.orange > ul > li > span,
+.orange .doodle {
+  background-color: #f5cbbf;
+  border-color: #f5cbbf;
+}
+.blue {
+  border-color: #44b0fd;
+}
+.blue > p > span,
+.blue > ul > li > span,
+.blue .doodle {
+  background-color: #c5e2fe;
+  border-color: #c5e2fe;
+}
+.magenta {
+  border-color: #9256fd;
+}
+.magenta > p > span,
+.magenta > ul > li > span,
+.magenta .doodle {
+  background-color: #c4a4fe;
+  border-color: #c4a4fe;
+}
+.pink {
+  border-color: #e656fc;
+}
+.pink > p > span,
+.pink > ul > li > span,
+.pink .doodle {
+  background-color: #f1a1fd;
+  border-color: #f1a1fd;
+}

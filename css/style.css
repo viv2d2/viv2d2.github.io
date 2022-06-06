@@ -1,0 +1,126 @@
+a,abbr,acronym,address,applet,article,aside,audio,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline
+}
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  color: #aaa;
+  background: #1c1c1c;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  font-weight: 300;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header, main, footer {
+  width: 600px;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+h1 {
+  font-size: 30px;
+  line-height: 40px;
+  text-transform: lowercase;
+  color: #ccc;
+  text-align: center;
+}
+h2 {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: bold;
+  text-transform: lowercase;
+  margin-bottom: 10px;
+  color: #ccc;
+}
+h3 {
+  font-weight: bold;
+}
+header a {
+  text-decoration: none;
+  border: none;
+}
+header a:hover {
+  color: #ddd;
+}
+a {
+  color: #aaa;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+p {
+  padding-bottom: 20px;
+}
+p > span,
+li > span {
+  font-weight: bold;
+  color: #333;
+  text-transform: lowercase;
+  padding: 0 5px 0 5px;
+  margin-right: 5px;
+  border: 1px solid;
+}
+small {
+  font-size: 13px;
+  font-style: italic;
+}
+ul, ol {
+  padding-left: 20px;
+}
+li {
+  padding-bottom: 20px;
+}
+main {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.doodle {
+  max-height: 100px;
+  max-width: 100%;
+  margin-bottom: 20px;
+  padding: 20px;
+  background: #aaa;
+  border-radius: 20px;
+}
+.blurb {
+  padding: 20px 20px 0px 20px;
+  margin-bottom: 40px;
+  display: block;
+  width: 100%;
+  background: #222;
+  border-left: 3px solid;
+}
+footer {
+  color: #888;
+  margin-top: auto;
+  margin-bottom: 0;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 10px;
+}
+footer a {
+  color: #888;
+}
+@media screen and (max-width: 800px) {
+  section {
+    width: 80%;
+  }
+}
