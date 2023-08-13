@@ -1,10 +1,18 @@
-body {
-  background: #f8f8f8;
-  color: #111;
-}
-h1, h2 {
-  color: #222;
-}
-.doodle, .blurb {
-  background: #fff;
+@media (prefers-color-scheme: light) {
+  body {
+    background: #f8f8f8;
+    color: #111;
+  }
+  h1, h2 {
+    color: #222;
+  }
+  a {
+    color: #555;
+  }
+  a:hover {
+    color: #999;
+  }
+  .doodle, .blurb {
+    background: #fff;
+  }
 }
